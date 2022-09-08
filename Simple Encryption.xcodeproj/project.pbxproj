@@ -11,6 +11,7 @@
 		9BFBDA5928C91A8B00252EB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBDA5828C91A8B00252EB7 /* ContentView.swift */; };
 		9BFBDA5B28C91A8D00252EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBDA5A28C91A8D00252EB7 /* Assets.xcassets */; };
 		9BFBDA5E28C91A8D00252EB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBDA5D28C91A8D00252EB7 /* Preview Assets.xcassets */; };
+		9BFBDA6C28CA21FD00252EB7 /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBDA6B28CA21FD00252EB7 /* Codec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9BFBDA5A28C91A8D00252EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BFBDA5D28C91A8D00252EB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BFBDA5F28C91A8D00252EB7 /* Simple_Encryption.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Simple_Encryption.entitlements; sourceTree = "<group>"; };
+		9BFBDA6B28CA21FD00252EB7 /* Codec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				9BFBDA5628C91A8B00252EB7 /* Simple_EncryptionApp.swift */,
 				9BFBDA5828C91A8B00252EB7 /* ContentView.swift */,
+				9BFBDA6B28CA21FD00252EB7 /* Codec.swift */,
 				9BFBDA5A28C91A8D00252EB7 /* Assets.xcassets */,
 				9BFBDA5F28C91A8D00252EB7 /* Simple_Encryption.entitlements */,
 				9BFBDA5C28C91A8D00252EB7 /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				9BFBDA5928C91A8B00252EB7 /* ContentView.swift in Sources */,
 				9BFBDA5728C91A8B00252EB7 /* Simple_EncryptionApp.swift in Sources */,
+				9BFBDA6C28CA21FD00252EB7 /* Codec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Simple Encryption/Preview Content\"";
+				DEVELOPMENT_TEAM = 78867Z6L4G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -295,6 +300,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Simple Encryption/Preview Content\"";
+				DEVELOPMENT_TEAM = 78867Z6L4G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
